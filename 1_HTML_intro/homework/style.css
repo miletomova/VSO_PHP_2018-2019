@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(215,215,215);
+	border-bottom: 2px solid rgb(0, 115, 207);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+.bodyUnderNav {
+	margin-top: 50px;
+	border-top: 2px solid rgb(0, 115, 207);
+	border-bottom: 2px solid rgb(0, 115, 207);
+	background-color: rgb(215,215,215);
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+	background-image: url(images/css.jpg);
+	background-repeat: no-repeat;
+	height: 667px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	color: rgb(0, 115, 207);
+    font-family: Comfortaa;
+    font-size: 2.3vw;
+}
+
+p {
+	font-family: Segoe UI Light;
+	font-style: italic;
+	font-size: 1.5vw;
+	color: rgb(88,88,88);
+}
+
+li {
+	font-family: Segoe UI Light;
+	font-style: italic;
+	font-size: 1.6vw;
+	color: rgb(88,88,88);
+	text-decoration: underline;
+}
+
+.textDiv {
+    margin-left: 350px;
+    margin-top: 35px;
+}
+
+.navElement {
+	font-size: 1.9vw;
+	font-family: Calibri;
+	color: rgb(160,160,160);
+	text-decoration: none;
+	display: inline-block;
+	padding: 7px 130px;
+	float: none;
+}
+
+.end {
+	width: 100%;
+	height: 45px;
+	border-top: 2px solid rgb(0, 115, 207);
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+	background-color: rgb(215,215,215);
+	color: gray;
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: Calibri;
+}
