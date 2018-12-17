@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	background-color: silver;
+}
+
+.header {
+	background-color: darkgray;
+	border-bottom: 2px solid #0073cf;
+	height: 28px;
+	text-align: center;
+	font-size: 21px;
+	padding: 10px;
+	color: #fff;
+	box-shadow: 0 0 30px rgba(0,0,0,.8);
+	font-family: Calibri;
+}
+
+.task_area {
+	background-color: #B0B0B0;
+	width: 66%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	margin-bottom: 4.5%;
+	border: 0.5px solid gray;
+}
+
+.ex {
+	font-size: 1.75vw;
+	border: 1px solid gray;
+	text-align: center;
+	width: 16%;
+	border-radius: 25px;
+	background-color: silver;
+	color: #0073cf;
+	padding: 3px;
+	margin-left: 0px;
+	margin-top: -1px;
+	font-family: Calibri;
+}
+
+.faded {
+	color: #707070;
+	font-size: 1.5vw;
+	margin-left: 19%;
+	margin-top: -3.6%;
+	margin-bottom: 3.5%;
+	font-family: Calibri;
+}
+
+.text2 {
+	color: white;
+	font-size: 2vw;
+	text-shadow: 0 0 0.4px black;
+	text-align: center;
+	font-family: Calibri;
+}
+
+.blue {
+	color: #0073cf;
+	font-size: 2vw;
+	text-shadow: 0 0 0.5px black;
+	margin-left: -1px;
+	font-family: Calibri;
+}
+
+table {
+	border: 1px solid #0073cf;
+	border-collapse: collapse;
+}
+
+td {
+	height: 28px;
+	width: 170px;
+	text-align: center;
+	font-size: 1.4vw;
+	background-color: silver;
+	color: #484848;
+	font-family: Calibri;
+}
+
+.left_td {
+	text-align: left;
+}
+
+.header_td {
+	border-bottom: 2px solid #0073cf;
+	background-color: rgba(0, 115, 207, 0.3);
+}
+
+.result {
+	background-color: silver;
+	border: 1px solid gray;
+	border-radius: 25px;
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 2%;
+	padding: 2px;
+}
