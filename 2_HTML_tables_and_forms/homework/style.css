@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	background-color: rgb(65,65,65);
+}
+
+table, tr, td {
+	border: 1px solid rgb(0,115,207);
+}
+
+tr {
+	color: white;
+	font-family: Calibri;
+	font-size: 17px;
+	text-align: center;
+}
+
+.table1 td {
+	width: 35px;
+	height: 43px;
+}
+
+.table2 td {
+	width: 45px;
+	height: 35px;
+}
+
+.table3 td {
+	width: 43px;
+	height: 33px;
+}
+
+p {
+	font-family: Calibri;
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	margin-left: 105px;
+}
+
+.myName {
+	font-family: Calibri;
+	font-size: 1.9vw;
+	background-color: gray;
+	height: 40px;
+	text-align: center;
+	border-bottom: 1px solid rgb(0, 115, 207);
+	margin-bottom: 4%;
+	color: white;
+}
