@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	background-color: #D0D0D0;
+}
+
+.header {
+	font-family: Calibri;
+	font-size: 1.7vw;
+	font-weight: bold;
+	text-align: center;
+	background-color: #B0B0B0;
+	color: gray;
+	border-bottom: 2px solid #0073cf;
+	padding: 8px;
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+.task_area {
+	border: 2px solid gray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 63%;
+	margin-bottom: 5%;
+	box-shadow: 0 0 15px rgba(0,0,0,.4);
+}
+
+.task {
+	text-align: left;
+	border-bottom: 2px solid gray;
+	padding: 5px 12px;
+	font-size: 1.65vw;
+	font-family: Calibri;
+	background-color: #B0B0B0;
+	color: #0073cf;
+	font-weight: bold;
+}
+
+.task_text {
+	font-size: 1.4vw;
+	font-family: Calibri;
+	padding: 4px 12px;
+	color: gray;
+	margin-bottom: 1%;
+}
+
+.text {
+	font-size: 1.6vw;
+	font-family: Calibri;
+	padding: 4px 12px;
+	color: gray;
+	margin-bottom: 1%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.answer {
+	text-align: center;
+	color: #0073cf;
+	font-weight: bold;
+	font-family: Calibri;
+	font-size: 1.7vw;
+	margin-bottom: 5%;
+}
+
+table, td {
+  border: 2px solid gray;
+  border-collapse: collapse;
+  margin-bottom: 4%;
+  margin-top: 3%;
+}
+
+td {
+	text-align: center;
+	width: 85px;
+	height: 22px;
+	font-family: Calibri;
+	background-color: silver;
+	color: #686868;
+	font-size: 1.45vw;
+}
+
+.head_td {
+	border: 2px solid #0073cf;
+	background-color: darkgray;
+	font-weight: bold;
+}
+
+.cycle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Calibri;
+	color: gray;
+	width: 100%;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	padding: 4px 0px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 6%;
+	margin-bottom: 5%;
+	background-color: silver;
+}
