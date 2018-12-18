@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forms - tasks</title>
+	<style>
+		input {
+			margin-bottom: 10px;
+		}
+
+		.task {
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="task">task 1</div>
+	<p>Login form</p>
+	<form>
+		<div>
+			<label>Username</label>
+			<input type="text" name="name">
+		</div>
+		<div>	
+			<label>Password</label>
+			<input type="password" name="password">
+		</div>
+		<input type="submit" value="login">
+	</form>
+
+	<div class="task">task 2</div>
+	<form>
+		<div>
+			<label>Username</label>
+			<input type="text" name="username">
+		</div>
+		<div>
+			<label>Password</label>
+			<input type="password" name="password2">
+		</div>
+		<div>
+			<label>Repeat Password</label>
+			<input type="password" name="password2.1">
+		</div>
+		<div>
+			<label>First name</label>
+			<input type="text" name="name3">
+		</div>
+		<div>
+			<label>Last name</label>
+			<input type="text" name="lstName">
+		</div>
+		<input type="submit" name="submit" value="submit">
+	</form>
+
+	<div class="task">task 3</div>
+	<form>
+		<p>Do you have any food requirements?</p>
+		<div>
+			<label for="veg">Vegetarian</label>
+			<input id="veg" type="radio" name="veg">	
+			<label for="no_veg">No</label>
+			<input id="no_veg" type="radio" name="no_veg">
+		</div>
+		<div>	
+			<label for="news" >News subscription</label>
+			<input id="news" type="checkbox" name="news">	
+			<label for="e_ads">Email advertisements</label>
+			<input id="e_ads" type="checkbox" name="e_ads">
+		</div>
+		<div>
+			<label for="paper_cat">I want paper catalogue</label>
+			<input id="paper_cat" type="checkbox" name="catalogue">
+			<label for="dig_cat">I want digital catalogue</label>
+			<input id="dig_cat" type="checkbox" name="digi_catalogue">
+		</div>
+		<label>Occupation</label>
+		<select>
+			<option>Student</option>
+			<option>other</option>
+		</select>
+		<input type="submit" name="submit" value="submit">
+</body>
+</html>
