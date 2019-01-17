@@ -1,0 +1,128 @@
+body {
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+header {
+	display: block;
+	margin-top: 5%;
+	margin-left: 12%;
+	width: 17%;
+	text-align: center;
+	color: white;
+	font-size: 3vw;
+	font-family: Segoe Print;
+	font-weight: bold;
+	text-shadow: -6px -6px 5px rgba(0, 0, 0);
+}
+
+.about {
+	color: #0073cf;
+	font-size: 1.5vw;
+	font-family: Segoe UI Light;
+	font-style: italic;
+	padding: 5px;
+}
+
+.panel {
+	width: 43%;
+	margin-right: 3.5%;
+	margin-left: auto;
+	border: 2px solid #206592;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255,.75);
+	padding: 12px;
+	margin-top: 3%;
+	box-shadow: 0px 0px 10px black;
+}
+
+label {
+	display: inline-block;
+	height: 22px;
+	color: #206592;
+	font-size: 1.6vw;
+	font-family: Calibri;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+
+input[type=text], input[type=number] {
+	width: 80px;
+	height: 18px;
+	color: #3280B4;
+	text-align: center;
+	font-weight: bold;
+	background-color: #d0d0d0;
+	border: 1px solid #808080;
+}
+
+/*butona da se opravi--------------------------------------*/
+
+.button {
+	width: 22%;
+	height: 25px;
+	color: #fff;
+	background-image: linear-gradient(to right, #439bd6, #206592);
+	font-size: 1.45vw;
+	font-family: Calibri;
+	border: 2px solid #206592;
+	border-radius: 25px;
+	float: right;
+}
+
+.button:hover {
+	border: 2px solid #439bd6;
+}
+
+.error {
+	color: #f00;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 1.6vw;
+	font-weight: bold;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.result_text {
+	color: #206592;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 1.6vw;
+	font-weight: bold;
+}
+
+.timeNow {
+	color: #808080;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 1.5vw;
+	font-style: italic;
+	margin-bottom: 1%;
+}
+
+.result_time {
+	color: #439bd6;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 2.6vw;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 1%;
+}
+
+footer {
+	color: #b0b0b0;
+	text-align: center;
+	font-family: Calibri;
+	font-size: 1.52vw;
+	position: fixed;
+	width: 43%;
+	bottom: 2%;
+	right: 4%;
+	left: auto;
+	text-shadow: 0px 0px 3px #000;
+}
