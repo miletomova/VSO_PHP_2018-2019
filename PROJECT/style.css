@@ -1,8 +1,8 @@
 body {
+	margin: 0;
 	background-image: url("images/background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 0;
 }
 
 header {
@@ -10,12 +10,12 @@ header {
 	margin-top: 5%;
 	margin-left: 12%;
 	width: 17%;
-	text-align: center;
 	color: white;
+	text-align: center;
 	font-size: 3vw;
 	font-family: Segoe Print;
 	font-weight: bold;
-	text-shadow: -6px -6px 5px rgba(0, 0, 0);
+	text-shadow: -6px -6px 5px #000;
 }
 
 .about {
@@ -28,14 +28,14 @@ header {
 
 .panel {
 	width: 43%;
-	margin-right: 3.5%;
+	margin-top: 3%;
 	margin-left: auto;
+	margin-right: 3.5%;
+	background-color: rgba(255, 255, 255,.75);
 	border: 2px solid #206592;
 	border-radius: 25px;
-	background-color: rgba(255, 255, 255,.75);
 	padding: 12px;
-	margin-top: 3%;
-	box-shadow: 0px 0px 10px black;
+	box-shadow: 0px 0px 10px #000;
 }
 
 label {
@@ -52,20 +52,18 @@ label {
 input[type=text], input[type=number] {
 	width: 80px;
 	height: 18px;
-	color: #3280B4;
 	text-align: center;
+	color: #3280B4;
 	font-weight: bold;
 	background-color: #d0d0d0;
 	border: 1px solid #808080;
 }
 
-/*butona da se opravi--------------------------------------*/
-
 .button {
 	width: 22%;
 	height: 25px;
-	color: #fff;
 	background-image: linear-gradient(to right, #439bd6, #206592);
+	color: #fff;
 	font-size: 1.45vw;
 	font-family: Calibri;
 	border: 2px solid #206592;
@@ -80,8 +78,8 @@ input[type=text], input[type=number] {
 .error {
 	color: #f00;
 	text-align: center;
-	font-family: Calibri;
 	font-size: 1.6vw;
+	font-family: Calibri;
 	font-weight: bold;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -90,16 +88,16 @@ input[type=text], input[type=number] {
 .result_text {
 	color: #206592;
 	text-align: center;
-	font-family: Calibri;
 	font-size: 1.6vw;
+	font-family: Calibri;
 	font-weight: bold;
 }
 
 .timeNow {
 	color: #808080;
 	text-align: center;
-	font-family: Calibri;
 	font-size: 1.5vw;
+	font-family: Calibri;
 	font-style: italic;
 	margin-bottom: 1%;
 }
@@ -107,8 +105,8 @@ input[type=text], input[type=number] {
 .result_time {
 	color: #439bd6;
 	text-align: center;
-	font-family: Calibri;
 	font-size: 2.6vw;
+	font-family: Calibri;
 	font-weight: bold;
 	font-style: italic;
 	margin-top: 1%;
@@ -117,11 +115,11 @@ input[type=text], input[type=number] {
 footer {
 	color: #b0b0b0;
 	text-align: center;
-	font-family: Calibri;
 	font-size: 1.52vw;
+	font-family: Calibri;
 	position: fixed;
 	width: 43%;
-	bottom: 2%;
+	bottom: 1.5%;
 	right: 4%;
 	left: auto;
 	text-shadow: 0px 0px 3px #000;
