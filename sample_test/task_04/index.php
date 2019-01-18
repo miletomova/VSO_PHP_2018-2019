@@ -10,11 +10,8 @@ if (isset($_POST['submit'])) {
 
 	if (!empty($str)) {
 		$words = explode(' ', $str);
-		// var_dump($words);
 		for ($i = 0; $i < count($words); $i++) {
 			$letters = str_split($words[$i]);
-			// var_dump($letters);
-			// var_dump(strlen($words[$i]));
 			if (strlen($words[$i]) % 2 == 0) {
 				for ($j = 0; $j < count($letters); $j++) {
 					$new_str .= ord($letters[$j]).' ';
