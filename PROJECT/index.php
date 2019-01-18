@@ -4,6 +4,7 @@
 	<title>ClockHandAngle2</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="icon/png" href="images/icon.png">
 </head>
 <body>
 	<div class="wrapper">
@@ -43,13 +44,16 @@
 						$m = $time_el[1];
 						$s = $time_el[2];
 						if (strlen($h) == 1 || strlen($h) == 2 && strlen($m) == 2 && strlen($s) == 2 && $h > 0 && $h <= 12 && $m >= 0 && $m < 60 && $s >= 0 && $s < 60) {
+
 							if ($angle == null) {
 								$angle = 0;
 							}
 
 							echo '<div class="panel">';
+
 							echo '<div class="timeNow">'.$timeNow.'</div>';
 							echo '<div class="result_text">'.'The next time when the clock hands\' angle will be '.$angle.'&#176;<br> is'.'</div>';
+							
 							echo '<div class="result_time">';
 							clockHandAngle2($timeNow, $angle);
 							echo '</div>';
