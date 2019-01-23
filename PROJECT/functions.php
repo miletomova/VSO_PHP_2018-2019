@@ -36,10 +36,10 @@ function clockHandAngle2($timeNow, $angle) {
 						if ($h == 0) {
 							$h = 12;
 						}
-						if ($m < 10 && $m != 0) {
+						if ($m < 10) {
 							$m = '0'.$m;
 						}
-						if ($s < 10 && $s != 0) {
+						if ($s < 10) {
 							$s = '0'.$s;
 						}
 						
@@ -59,4 +59,10 @@ function FindAngle($h, $m, $s) {
     $new_angle = abs($h_angle - $m_angle);
     $new_angle = min((360 - $new_angle), $new_angle);
     return round($new_angle, 1);
+}
+
+function PrintError($str) {
+	echo '<div class="panel">';
+	echo '<div class="error">'.$str.'</div>';
+	echo '</div>';
 }
