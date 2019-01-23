@@ -8,9 +8,12 @@
 </head>
 <body>
 	<div class="wrapper">
-		<header>clockHandAngle2</header>
-		<main>
-			<div style="margin-top: -0.5%;" class="panel">
+		<div class="left_part">
+			<header>ClockHandAngle2</header>
+			<img src="images/clock_img.png" class="clock_img" width="70%">
+		</div>
+		<div class="right_part">
+			<div class="panel">
 				<div class="about">
 				Welcome to my project,<br>what I had to do was to write an algorithm that calculate and print
 				the next time when the clock hands' angle will be the same as you want and... it is.
@@ -60,24 +63,18 @@
 
 							echo '</div>';
 						} else {
-							echo '<div class="panel">';
-							echo '<div class="error">'.'Incorrect timeNow value!'.'</div>';
-							echo '</div>';
+							PrintError('Incorrect timeNow value!');
 						}
 					} else {
-						echo '<div class="panel">';
-						echo '<div class="error">'.'Incorrect timeNow value!'.'</div>';
-						echo '</div>';
+						PrintError('Incorrect timeNow value!');
 					}
 				} else {
-					echo '<div class="panel">';
-					echo '<div class="error">'.'Please set timeNow!'.'</div>';
-					echo '</div>';
+					PrintError('Please set the timeNow!');
 				}
 			}
 			?>
-		</main>
-		<footer>Made by Martin Georgiev, 2019</footer>
+			<footer>Made by Martin Georgiev, 2019</footer>
+		</div>
 	</div>
 </body>
 </html>
