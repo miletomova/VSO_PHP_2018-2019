@@ -10,7 +10,7 @@
 	<div class="wrapper">
 		<div class="left_part">
 			<header>ClockHandAngle2</header>
-			<img src="images/clock_img.png" class="clock_img" width="70%">
+			<img src="images/img.png" class="image" width="85%">
 		</div>
 		<div class="right_part">
 			<div class="panel">
@@ -46,7 +46,7 @@
 						$h = $time_el[0];
 						$m = $time_el[1];
 						$s = $time_el[2];
-						if (strlen($h) == 1 || strlen($h) == 2 && strlen($m) == 2 && strlen($s) == 2 && $h > 0 && $h <= 12 && $m >= 0 && $m < 60 && $s >= 0 && $s < 60) {
+						if ((strlen($h) == 1 || strlen($h) == 2) && strlen($m) == 2 && strlen($s) == 2 && $h > 0 && $h <= 12 && $m >= 0 && $m < 60 && $s >= 0 && $s < 60) {
 
 							if ($angle == null) {
 								$angle = 0;
