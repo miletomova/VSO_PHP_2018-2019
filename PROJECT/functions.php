@@ -36,10 +36,10 @@ function clockHandAngle2($timeNow, $angle) {
 						if ($h == 0) {
 							$h = 12;
 						}
-						if ($m < 10) {
+						if ($m < 10 && strlen($m) < 2) {
 							$m = '0'.$m;
 						}
-						if ($s < 10) {
+						if ($s < 10 && strlen($s) < 2) {
 							$s = '0'.$s;
 						}
 						
